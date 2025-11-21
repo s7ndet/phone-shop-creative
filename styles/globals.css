@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom */
+:root{
+  --glass: rgba(255,255,255,0.06);
+}
+body{
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+.hero-gradient{
+  background: linear-gradient(135deg,#0ea5e9 0%, #7c3aed 50%, #ec4899 100%);
+}
+.card-glass{
+  background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255,255,255,0.06);
+}
