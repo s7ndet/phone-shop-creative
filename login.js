@@ -14,7 +14,7 @@ export default function Login() {
     // Фейк логин (өзгертуге болады)
     if (username === "admin" && password === "1234") {
       localStorage.setItem("auth", "true");
-      router.push("/details"); // қалаған бетіңе ауыстыра аласың
+      router.push("/details"); // қалаған бетке ауыстырады
     } else {
       setError("Логин немесе пароль қате!");
     }
